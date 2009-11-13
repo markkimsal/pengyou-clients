@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4" relativePaths="true" type="J2EE_WEB_MODULE" j2ee-integration="Tomcat Server">
+  <component name="ModuleRootManager" />
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/exploded2/WEB-INF/classes" />
+    <exclude-output />
+    <exploded url="file://$MODULE_DIR$/exploded" />
+    <exclude-exploded />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/web" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/exploded2" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/log4j-1.2.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-logging-1.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jaxen-1.1-beta-6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../webdavclient/lib/commons-httpclient-contrib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-httpclient-2.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-io-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Tomcat" level="application_server_libraries" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-fileupload-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="clientlib" />
+    <orderEntryProperties />
+  </component>
+  <component name="WebModuleBuildComponent">
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/exploded" />
+    <setting name="EXPLODED_ENABLED" value="true" />
+    <setting name="JAR_URL" value="file://$MODULE_DIR$/PY-Web.war" />
+    <setting name="JAR_ENABLED" value="true" />
+    <setting name="SYNC_EXPLODED_DIR" value="true" />
+    <setting name="BUILD_ON_FRAME_DEACTIVATION" value="false" />
+    <setting name="RUN_JASPER_VALIDATION" value="false" />
+  </component>
+  <component name="WebModuleProperties">
+    <containerElement type="module" name="clientlib">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/classes" />
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-fileupload-1.1.1.jar" />
+      <url>jar://$MODULE_DIR$/lib/commons-fileupload-1.1.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-httpclient-2.0.2.jar" />
+      <url>jar://$MODULE_DIR$/lib/commons-httpclient-2.0.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-io-1.0.jar" />
+      <url>jar://$MODULE_DIR$/lib/commons-io-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-logging-1.0.4.jar" />
+      <url>jar://$MODULE_DIR$/lib/commons-logging-1.0.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <url>jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jaxen-1.1-beta-6.jar" />
+      <url>jar://$MODULE_DIR$/lib/jaxen-1.1-beta-6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/log4j-1.2.9.jar" />
+      <url>jar://$MODULE_DIR$/lib/log4j-1.2.9.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/ant.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/ant.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/antlr.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/antlr.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-httpclient-contrib.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/commons-httpclient-contrib.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-httpclient.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/commons-httpclient.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-logging.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/commons-logging.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-transaction-1.1b2.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/commons-transaction-1.1b2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/commons-xmlio-0.1pre.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/commons-xmlio-0.1pre.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1" />
+      <attribute name="URI" value="/WEB-INF/lib/jdom-1.0.jar" />
+      <url>jar://$MODULE_DIR$/../webdavclient/lib/jdom-1.0.jar!/</url>
+    </containerElement>
+    <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/resources/WEB-INF/web.xml" optional="false" version="2.3" />
+    <deploymentDescriptor name="context.xml" url="file://$MODULE_DIR$/META-INF/context.xml" optional="true" version="5.x" />
+    <webroots>
+      <root url="file://$MODULE_DIR$/src/main/web" relative="/" />
+      <root url="file://$MODULE_DIR$/src/main/java" relative="/" />
+      <root url="file://$MODULE_DIR$/src/main/resources/WEB-INF" relative="/WEB-INF" />
+    </webroots>
+  </component>
+  <component name="WeblogicWebModuleProperties">
+    <option name="IS_RUN_APPC" value="false" />
+  </component>
+</module>
+

@@ -1,0 +1,344 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Addons" oor:package="org.openoffice.Office">
+    <node oor:name="AddonUI">
+        <node oor:name="OfficeMenuBar">
+            <node oor:name="org.openoffice.Office.addon.pengyou" oor:op="replace">
+                <prop oor:name="Title" oor:type="xs:string">
+                    <value/>
+                    <value xml:lang="en-US">Remote documents</value>
+                    <value xml:lang="fr-FR">Documents distants</value>
+                </prop>
+                <prop oor:name="Target" oor:type="xs:string">
+                    <value>_self</value>
+                </prop>
+                <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                    <value/>
+                </prop>
+                <node oor:name="Submenu">
+                    <node oor:name="m01" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:Open</value>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Open...</value>
+                            <value xml:lang="fr-FR">Ouvrir...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <node oor:name="m02" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:Publish</value>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Publish</value>
+                            <value xml:lang="fr-FR">Publier</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <node oor:name="m03" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:PublishAs</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Publish as...</value>
+                            <value xml:lang="fr-FR">Publier sous...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <node oor:name="m04" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>private:separator</value>
+                        </prop>
+                    </node>
+                    <node oor:name="m05" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:OpenAtPreviousDate</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Open at a previous version...</value>
+                            <value xml:lang="fr-FR">Ouvrir à une date antérieur...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <!--
+                    <node oor:name="m07" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:EditTheDescription</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Edit the description...</value>
+                            <value xml:lang="fr-FR">Editer la description...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <node oor:name="m08" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:RightsManagement</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Rights management...</value>
+                            <value xml:lang="fr-FR">Gérer les droits...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    //-->
+                    <node oor:name="m10" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>private:separator</value>
+                        </prop>
+                    </node>
+                    <node oor:name="m11" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:Settings</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Settings...</value>
+                            <value xml:lang="fr-FR">Paramètres...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <node oor:name="m12" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:Help</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">Help...</value>
+                            <value xml:lang="fr-FR">Aide...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                    <node oor:name="m13" oor:op="replace">
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>org.openoffice.Office.addon.pengyou:About</value>
+                        </prop>
+                        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                            <value/>
+                        </prop>
+                        <prop oor:name="Title" oor:type="xs:string">
+                            <value/>
+                            <value xml:lang="en-US">About...</value>
+                            <value xml:lang="fr-FR">A propos...</value>
+                        </prop>
+                        <prop oor:name="Target" oor:type="xs:string">
+                            <value>_self</value>
+                        </prop>
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value></value>
+                        </prop>
+                    </node>
+                </node>
+            </node>
+        </node>
+        <node oor:name="Images">
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconOpen" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:Open</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/document-open.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/document-open.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconPublish" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:Publish</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/document-save.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/document-save.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconPublishAs" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:PublishAs</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/document-save-as.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/document-save-as.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconOpenAtPreviousDate" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:OpenAtPreviousDate</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/office-calendar.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/office-calendar.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconEditTags" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:EditTags</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/document-properties.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/document-properties.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconEditTheDescription" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:EditTheDescription</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/accessories-text-editor.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/accessories-text-editor.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconRightsManagement" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:RightsManagement</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/contact-new.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/contact-new.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconExport" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:Export</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/mail-send-receive.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/mail-send-receive.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconSettings" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:Settings</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/preferences-system.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/preferences-system.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconHelp" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:Help</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/help-browser.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/help-browser.png</value>
+                    </prop>
+                </node>
+            </node>
+			<node oor:name="org.openoffice.Office.Addons.PengYou.iconAbout" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.Office.addon.pengyou:About</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>%origin%/images/dialog-information.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>%origin%/images/dialog-information.png</value>
+                    </prop>
+                </node>
+            </node>
+		</node>
+    </node>
+</oor:component-data>

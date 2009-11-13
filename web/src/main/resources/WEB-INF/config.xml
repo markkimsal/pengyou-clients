@@ -1,0 +1,30 @@
+<PengYouWeb>
+    <Server attribute="url">
+    	<value>http://10.142.7.146</value>
+    </Server>
+    <Server attribute="port">
+    	<value>8080</value>
+    </Server>
+    <Server attribute="basedirectory">
+   	 <value>/ecm/repository/production/</value>
+    </Server>
+
+    <Proxy attribute="proxyUse">
+ 	   <value>False</value>
+    </Proxy>
+    <Proxy attribute="host">
+ 	   <value>nohost</value>
+    </Proxy>
+    <Proxy attribute="port">
+ 	   <value>noport</value>
+    </Proxy>
+    <Proxy attribute="username">
+ 	   <value>nouser</value>
+    </Proxy>
+    <Proxy attribute="password">
+ 	   <value>nopassword</value>
+    </Proxy>
+    <Application attribute="dateformat">
+        <value>H:m dd/MM/yyyy</value>
+    </Application>
+</PengYouWeb>

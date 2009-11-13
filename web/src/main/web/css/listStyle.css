@@ -1,0 +1,158 @@
+#fileList img{
+    border: none;
+}
+#fileList{
+width:100%;
+}
+
+#divList{
+width:71%;
+}
+
+
+#fileList a{
+    color:#455A87;
+    text-decoration:none;
+}
+#fileList a:hover{
+ color:#CC0000;
+}
+
+.listThumb ul{
+	background:#7F7F7F;
+	border:1px solid #000000;
+	overflow:auto;
+	height:400px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+.listThumb li{
+  float: left;
+  width: 110px;
+  padding:10px 0px 10px 0px;
+  margin: 2px;
+  border: 1px solid #7F7F7F;
+  text-align:center;
+  font: 11px georgia, sans-serif;
+}
+
+.listThumb li:hover{
+  border: 1px solid #E0E0E0;
+}
+
+#buttons img{
+margin:4px 0px 0px 5px;
+}
+
+#fileList #buttons{
+color:#ff0000;
+border:1px solid #000000;
+border-top:none;
+width:180px;
+position:relative;
+left:43%;
+top:34px;
+background:#E1E1E1;
+}
+#fileList #buttons img:hover{
+background:#D0D0D0;
+width:16px;
+}
+
+.listThumb .fileDetails{
+display:none;
+}
+
+.thumbFile{
+font:11px georgia, sans-serif;
+color:#ffffff;
+}
+
+.listTab li.liFile{
+clear:both;
+padding:0px;
+margin:0px;
+}
+
+.listTab ul.ulList{
+  background:#7F7F7F;
+  border:1px solid #000000;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+overflow:auto;
+height:400px;
+list-style:none;
+}
+
+.listTab li.liFile{
+width:98%;
+}
+
+.listTab li.liFile:first-child{
+margin-top:15px;
+}
+
+.fileDetails ul.detailsUl li{
+border-bottom:none;
+float:left;
+height:20px;
+}
+
+
+.fileDetails ul.detailsUl{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+
+#headerList LI{
+background:#FFFFFF;
+text-align:center;
+font:bold 11px georgia, sans-serif;
+border:1px solid #f0F0F0;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+.fileDetails ul.detailsUl li.fileName{
+border:1px solid #D0D0D0;
+width:40%;
+text-indent:0.4em;
+}
+
+.fileDetails ul.detailsUl li.fileSize{
+border:1px solid #D0D0D0;
+width:8%;
+text-align:right;
+padding-right:2px;
+}
+
+.fileDetails ul.detailsUl li.lastModif{
+border:1px solid #D0D0D0;
+width:25%;
+text-align:right;
+padding-right:2px;
+}
+
+.fileDetails ul.detailsUl li.creatDate{
+border:1px solid #D0D0D0;
+width:25%;
+text-align:right;
+padding-right:2px;
+}
+
+.listTab .thumbFile{
+display:none;
+}
+
+ul.detailsUl:hover li{
+background:#D0D0D0;
+}
+
+#emptyDirectory{
+padding-left:44%;
+}

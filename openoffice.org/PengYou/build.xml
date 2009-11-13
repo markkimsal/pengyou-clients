@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="PengYou">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="PengYou.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/ant.jar"/>
+        <pathelement location="lib/antlr.jar"/>
+        <pathelement location="lib/commons-httpclient.jar"/>
+        <pathelement location="lib/commons-httpclient-contrib.jar"/>
+        <pathelement location="lib/commons-io-1.0.jar"/>
+        <pathelement location="lib/commons-logging.jar"/>
+        <pathelement location="lib/commons-transaction-1.1b2.jar"/>
+        <pathelement location="lib/commons-xmlio-0.1pre.jar"/>
+        <pathelement location="lib/geronimo-spec-j2ee-1.0-M1.jar"/>
+        <pathelement location="lib/jdom-1.0.jar"/>
+        <pathelement location="lib/webdav-client.jar"/>
+        <pathelement location="lib/log4j-1.2.8.jar"/>
+        <pathelement location="/Applications/NeoOffice.app/Contents/MacOS/classes/unoil.jar"/> <!-- must have -->
+        <pathelement location="/Applications/NeoOffice.app/Contents/MacOS/classes/classes.jar"/>
+        <pathelement location="/Applications/NeoOffice.app/Contents/MacOS/classes/juh.jar"/> <!-- must have -->
+
+		<pathelement location="/usr/lib/ooo-2.4/program/classes/unoil.jar"/> <!-- must have -->
+		<pathelement location="/usr/lib/ooo-2.4/program/classes/classes.jar"/>
+		<pathelement location="/usr/lib/ooo-2.4/program/classes/juh.jar"/> <!-- must have -->
+
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src" excludes="**/*.launch, **/*.java, **/*.svn"/>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean,clean-extension" name="cleanall"/> 
+	<target depends="init" name="build">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}" encoding="utf-8">
+            <src path="src"/>
+            <classpath refid="PengYou.classpath"/>
+        </javac>
+	</target>
+	<target name="jar">
+		<jar destfile="../PengYou.uno/ProtocolHandlerAddon_java.uno.jar">
+		    <fileset dir="bin"
+		             excludes="**/*.svn"
+		    />
+			<fileset file="ProtocolHandlerAddon_java.uno.Manifest" />
+		    <manifest>
+		      <attribute name="RegistrationClassName" value="ProtocolHandlerAddon"/>
+		    </manifest>
+		</jar>
+	</target>
+	<target name="clean-extension">
+		<delete file="../PengYou.uno.zip"/>
+	</target>
+	<target depends="clean-extension" name="extension">
+		<jar destfile="../PengYou.uno.zip">
+		    <fileset dir="../PengYou.uno"
+		             excludes="**/*.svn"
+		    />
+		</jar>
+	</target>
+	<target depends="cleanall,build,jar,extension" name="build-all" />
+</project>

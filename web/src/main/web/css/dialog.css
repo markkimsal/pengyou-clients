@@ -1,0 +1,317 @@
+#Cache {
+    display: none;
+}
+
+.actionCacheCell {
+    background: #333333;
+    opacity: .9;
+}
+
+#dialogFrame{
+    display:none;
+}
+
+#actionCache {
+    overflow: auto;
+    z-index: 2;
+    position: absolute;
+    width: 99%;
+    height: 700px;
+}
+
+#dialogSpace {
+    background: #ffffff;
+    width: 200px;
+    height: 600px;
+    text-align: center;
+}
+
+#dialogTable {
+    width: 100%;
+border: 1px solid #000000;
+
+}
+
+.dialogHeader {
+    background: url( ../img/degradblue.jpg ) repeat-x;
+    font: bold 18px Arial;
+    border-bottom: 1px groove #0D0D0D;
+    height:30px;
+}
+
+#errorHeader{
+    background: url( ../img/degradred.png ) repeat-x;
+    color:#000000;
+}
+
+#dialogNewFile TD {
+    font: bold 12px Arial;
+    padding-left:6px;
+}
+
+#dialogNewFile {
+    background: #F0F0F0;
+    height: 10px;
+    width: 400px;
+}
+
+#fileInput, #fileDesc, #fileLocation {
+    font: 12px Arial;
+    width: 250px;
+}
+
+.fileAction {
+    margin-right: 23px;
+    font: bold 11px Arial;
+}
+
+.authInput {
+    font: 12px Arial;
+    width: 254px;
+}
+
+#dialogLogin TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+}
+
+#dialogLogin {
+   background: #F0F0F0;
+    height: 10px;
+    width: 400px;
+}
+
+#dialogLogout TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+}
+#dialogLogout {
+   background: #F0F0F0;
+    height: 10px;
+    width: 400px;
+}
+#dialogError TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+}
+
+#dialogError {
+   background: #F0F0F0;
+    height: 10px;
+    width: 400px;
+}
+
+#dialogDeleteFiles TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dialogDeleteFiles {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogAddUser TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dialogAddUser {
+    background: #F0F0F0;
+    height: 200px;
+    width: 300px;
+}
+
+#dialogMoveFiles {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogMoveFiles TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dialogNewFolder {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogNewFolder TD {
+    font: bold 12px Arial;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+#newFolderName{
+width:315px;
+padding-right:25px;
+}
+
+#dialogFileInfo {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogFileInfo TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#Cache {
+    display: none;
+}
+
+.actionCacheCell {
+    background: #333333;
+    opacity: .5;
+}
+
+#actionCache {
+    overflow: auto;
+    z-index: 2;
+    position: absolute;
+    width: 99%;
+    height: 671px;
+}
+
+#dialogSpace {
+    background: #ffffff;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#dialogTable {
+    width: 100%;
+border: 1px solid #000000;
+
+}
+
+.dialogHeader {
+    background: url( ../img/degradblue.jpg ) repeat-x;
+    font: bold 18px Arial;
+    border-bottom: 1px groove #0D0D0D;
+    height:30px;
+
+}
+
+#dialogNewFile TD {
+    font: bold 12px Arial;
+    padding-left:6px;
+}
+
+#dialogNewFile {
+    background: #F0F0F0;
+    height: 10px;
+    width: 400px;
+}
+
+#fileInput, #fileDesc, #fileLocation {
+    font: 12px Arial;
+    width: 250px;
+}
+
+.fileAction {
+    margin-right: 23px;
+    font: bold 11px Arial;
+}
+
+.authInput {
+    font: 12px Arial;
+    width: 254px;
+}
+
+#dialogLogin TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+}
+
+#dialogLogin {
+   background: #F0F0F0;
+    height: 10px;
+    width: 400px;
+}
+
+#dialogDeleteFiles TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dialogDeleteFiles {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogMoveFiles {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogMoveFiles TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dialogCopyFiles {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogCopyFiles TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#dialogCompressFiles {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogCompressFiles TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#dialogNewFolder {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogNewFolder TD {
+    font: bold 12px Arial;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+#newFolderName{
+width:315px;
+padding-right:25px;
+}
+
+#dialogFileInfo {
+    background: #F0F0F0;
+    height: 100px;
+    width: 400px;
+}
+
+#dialogFileInfo TD {
+    font: bold 12px Arial;
+    padding-left: 20px;
+    padding-top: 20px;
+}

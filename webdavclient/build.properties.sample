@@ -1,0 +1,28 @@
+# -------------------------------------------------------------------
+# build.properties.sample
+#
+# This is an example "build.properties" file, used to customize 
+# building Jakarta Slide WebDAV client for your local environment.  
+# Make any changes you need, and rename this file to 
+# "build.properties" 
+#
+# $Id: build.properties.sample,v 1.21 2004/05/26 09:07:35 ozeigermann Exp $
+# -------------------------------------------------------------------
+
+
+# -------------------------------------------------------------------
+# CONFIGURATION OPTIONS
+# -------------------------------------------------------------------
+
+# ----- Compile Control Flags -----
+compile.debug=on
+compile.deprecation=on
+compile.optimize=on
+build.compiler=modern
+
+
+# -------------------------------------------------------------------
+# EXTERNAL DEPENDENCIES 
+# -------------------------------------------------------------------
+
+jboss.deploy.dir=E:/Programme/jboss-3.2.3/server/default/deploy

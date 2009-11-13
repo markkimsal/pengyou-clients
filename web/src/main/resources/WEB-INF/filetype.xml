@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--
+   Copyright 2005 The Apache Software Foundation
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<fileTypes>
+    <extension type="doc">
+        <img>gnome-mime-application-msword.png</img>
+    </extension>
+    <extension type="ppt">
+        <img>gnome-mime-application-vnd.ms-powerpoint.png</img>
+    </extension>
+    <extension type="txt">
+        <img>gnome-mime-text-x-txt.png</img>
+    </extension>
+    <extension type="xml">
+        <img>gnome-mime-text-xml.png</img>
+    </extension>
+    <extension type="ogg">
+        <img>gnome-mime-application-ogg.png</img>
+    </extension>
+    <extension type="java">
+        <img>gnome-mime-text-x-java.png</img>
+    </extension>
+    <extension type="css">
+        <img>gnome-mime-text-css.png</img>
+    </extension>
+    <extension type="html">
+        <img>gnome-mime-text-html.png</img>
+    </extension>
+    <extension type="htm">
+        <img>gnome-mime-text-html.png</img>
+    </extension>
+    <extension type="pdf">
+        <img>gnome-mime-application-pdf.png</img>
+    </extension>
+    <extension type="rtf">
+        <img>gnome-mime-application-rtf.png</img>
+    </extension>
+    <extension type="xls">
+        <img>gnome-mime-application-vnd.ms-excel.png</img>
+    </extension>
+    <extension type="odp">
+        <img>gnome-mime-application-vnd.oasis.opendocument.presentation.png</img>
+    </extension>
+    <extension type="ods">
+        <img>gnome-mime-application-vnd.oasis.opendocument.spreadsheet.png</img>
+    </extension>
+
+    <extension type="odt">
+        <img>gnome-mime-application-vnd.oasis.opendocument.text.png</img>
+    </extension>
+
+    <extension type="rar">
+        <img>gnome-mime-application-x-rar.png</img>
+    </extension>
+
+    <extension type="zip">
+        <img>gnome-mime-application-zip.png</img>
+    </extension>
+
+    <extension type="tar">
+        <img>gnome-mime-application-x-rar.png</img>
+    </extension>
+
+    <extension type="tgz">
+        <img>gnome-mime-application-x-rar.png</img>
+    </extension>
+
+    <extension type="bz">
+        <img>gnome-mime-application-x-rar.png</img>
+    </extension>
+
+    <extension type="jpg">
+        <img>gnome-mime-image-jpeg.png</img>
+    </extension>
+    <extension type="png">
+        <img>gnome-mime-image-png.png</img>
+    </extension>
+    <extension type="gif">
+        <img>gnome-mime-image-gif.png</img>
+    </extension>
+    <extension type="jpeg">
+        <img>gnome-mime-image-jpeg.png</img>
+    </extension>
+    <extension type="psd">
+        <img>gnome-mime-image-x-psd.png</img>
+    </extension>
+    <extension type="mp3">
+        <img>gnome-mime-audio-x-mp3.png</img>
+    </extension>
+
+    <extension type="mpg">
+        <img>gnome-mime-video-mpeg.png</img>
+    </extension>
+    <extension type="mpeg">
+        <img>gnome-mime-video-mpeg.png</img>
+    </extension>
+    <extension type="wmv">
+        <img>gnome-mime-video-x-ms-wmv.png</img>
+    </extension>
+</fileTypes>

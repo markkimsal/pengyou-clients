@@ -1,0 +1,16 @@
+Pengyou Clients
+================================================================================
+From what I can tell this project is under the Apache License and is copyright:
+  Joslin Jeremi
+  Bethmont Jeremy
+  Chazottes Julien
+  Muniak Julien
+  Oncelay Julien
+
+
+Resurrection
+================================================================================
+This project seems to have died, but I really like the GUI clients.  I am not 
+saving the Java server portion of this project since I think it is a waste of 
+effort to write a WebDAV server in Java.  If the GUI clients can connect to any 
+WebDAV server then the project is still valuable.

@@ -1,0 +1,337 @@
+#global{
+background:#EEEEEE;
+}
+#login a{
+color:#0000BF;
+font:bold 11px arial;
+}
+
+#login{
+right:5px;
+}
+
+#clipBoardDetails{
+position:relative;
+top:-448px;
+float:right;
+margin-right:15px;
+background:#ffffff;
+border:2px solid #000000;
+padding:15px;
+height:404px;
+width:456px;
+overflow:auto;
+z-index:2;
+}
+
+#clipBoardDetails a{
+color:#0000D0;
+padding-left:5px;
+}
+
+#clipBoardDetails p{
+color:#0000D0;
+padding:0px;
+}
+
+#clipBoardDetails img{
+color:#0000D0;
+}
+
+#logo{
+margin:15px;
+}
+
+#topBox div{
+font:bold 13px Arial;
+color: #BF0000;
+margin-right:5px;
+position:absolute;
+top:10px;
+}
+
+body, div, td, th, h2, h3, h4 { /* redundant rules for bad browsers  */
+    font-family: verdana,sans-serif;
+	font-size:    x-small;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: small;
+	color: #333;
+}
+
+#topBox{
+	border: 1px solid #666;
+	border-bottom:none;
+  width:100%;
+}
+#topTitle{
+	font:bold 35px arial;
+	margin-right:25%;
+}
+
+img{
+border:none;
+}
+
+#main#rail{
+font:12px arial;
+display:block;
+width: 100%;
+}
+
+#rail ul{
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+
+
+#rail li{
+color:#000000;
+font: bold 12px arial;
+display:inline;
+}
+
+#rail a{
+color:#990000;
+text-decoration:none;
+font: 12px arial;
+margin:5px;
+}
+
+#rail a:hover{
+text-decoration:underline;
+color:#000000;
+}
+
+.sideBox{
+float:right;
+position:relative;
+width:24%;
+top:-434px;
+}
+
+div.Article,
+div.ArticleTwo,
+div.Article h2,
+div.ArticleBody,
+div.ArticleFooter,
+div.ArticleFooter p{
+  background:  url("../img/custom_corners_one.png");
+}
+div.Article {
+float:left;
+margin-bottom:-10px;
+margin-left:-6%;
+width:100%;
+}
+
+  div.ArticleTwo {
+  background-position: top left;
+  width:50%;
+  }
+div.Article h2 a, a:hover,a:visited{
+text-decoration:none;
+color:#000000;
+}
+
+div.Article h2 {
+  background-position: top right;
+  font-size:1.3em;
+  padding:15px;
+  padding-left:0;
+  padding-bottom: 1px;
+  margin:0;
+  position:relative;
+  right:-14px;
+cursor:pointer;
+}
+div.ArticleBody a{
+padding-left:5px;
+text-decoration:none;
+color:#576780;
+font:1em arial;
+}
+
+div.ArticleBody a:hover{
+text-decoration:underline;
+color:#6CB8DB;
+}
+
+div.ArticleBody {
+  background-position: 100% -10px;
+  margin:0;
+  padding:15px;
+  padding-top: 1px;
+  padding-left:0;
+  position:relative;
+  right:-14px;
+font:1em arial;
+  }
+div.ArticleFooter {
+  background-position: bottom left;
+  position:relative;
+  top:11px;
+  }
+div.ArticleFooter p {
+  background-position: bottom right;
+  padding:15px;
+  padding-top: 1px;
+  padding-left:0;
+  margin:-1em 0 0 0;
+  position:relative;
+  right:-14px;
+  }
+
+.searchTxt{
+width:80%;
+border:1px solid #A0A0A0;
+height:17px;
+margin:7px;
+margin-top:10px;
+text-indent:0.3em;
+}
+
+.searchRadio{
+margin-left:9px;
+width:10px;
+}
+
+
+/* set the image to use and establish the lower-right position */
+.cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2 {
+background: transparent url(/img/demobox.png)
+no-repeat bottom right;
+}
+.cssbox {
+width: 335px !important; /* intended total box width - padding-right(next) */
+width: 320px; /* IE Win = width - padding */
+padding-right: 15px; /* the gap on the right edge of the image (not content padding) */
+margin: 20px auto; /* use to position the box */ } /* set the top-right image */
+
+.cssbox_head {
+background-position: top right;
+margin-right: -15px; /* pull the right image over on top of border */
+padding-right: 40px; /* right-image-gap + right-inside padding */
+} /* set the top-left image */
+
+.cssbox_head h2 {
+background-position: top left;
+margin: 0; /* reset main site styles*/
+border: 0; /* ditto */
+padding: 25px 0 15px 40px; /* padding-left = image gap + interior padding ... no padding-right */
+height: auto !important; height: 1%; /* IE Holly Hack */
+} /* set the lower-left corner image */
+
+.cssbox_body {
+background-position: bottom left;
+margin-right: 25px; /* interior-padding right */
+padding: 15px 0 15px 40px; /* mirror .cssbox_head right/left */
+}
+
+
+.home{
+width:100%;
+height:490px;
+padding:15px;
+}
+
+.home td{
+text-align:center;
+border:1px solid #000000;
+    width:50%;
+}
+
+.quickBox{
+border:none;
+background:#D0D0D0;
+height:100%;
+    width:100%;
+}
+
+.quickBox th{
+border:none;
+text-align:right;
+padding-right:40px;
+background:#989795;
+margin:0;
+font:21px arial, sans serif;
+font-variant: small-caps;
+}
+
+.quickBox td{
+text-align:left;
+border:none;
+border-top:1px solid #000000;
+}
+
+.quickBox li{
+list-style-image: url('/img/check4.gif');
+}
+
+.boxEmpty{
+text-align:center;
+}
+
+#dl{
+border:0px;
+width:0px;
+height:0px;
+}
+
+.delIcon{
+float:right;
+margin-top:-17px;
+}
+
+.sideBoxP:hover{
+background:#D0D0D0;
+}
+
+.howToQ{
+background:#E1E1E1;
+list-style-image:url('./img/expand.png');
+padding-top:2px;
+color:#0A50A1;
+}
+
+li.howToQ:hover{
+cursor:pointer;
+text-decoration:underline;
+}
+
+#howTo{
+padding-left:150px;
+height:450px;
+width:800px;
+font:15px regular Verdana, Arial, Helvetica, sans-serif, monospace;
+overflow:auto;
+}
+#howTo A{
+color:#0A50A1;
+cursor:pointer;
+}
+
+.howToA{
+display:none;
+padding:10px 15px 10px 15px;
+margin:15px;
+background:#7F7F7F;
+color:#ffffff;
+border-right:3px solid #E0DCF9;
+border-left:3px solid #E0DCF9;
+border:1px solid #ffffff;
+text-align:justify;
+}
+
+
+#debugDiv{
+background:#D0D0D0;
+height:150px;
+overflow:auto;
+}
+
+#ExecFrame{
+    border:none;
+    width:0px;
+height:0px;
+}

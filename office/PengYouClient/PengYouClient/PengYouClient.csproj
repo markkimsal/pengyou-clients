@@ -1,0 +1,158 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A8145AAB-EFCA-4525-8610-9721647C3785}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>PengYouClient</AssemblyName>
+    <RootNamespace>PengYouClient</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <IncrementalBuild>false</IncrementalBuild>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <IncrementalBuild>false</IncrementalBuild>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Extensibility, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System">
+      <HintPath>System.dll</HintPath>
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>System.Data.dll</HintPath>
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML">
+      <HintPath>System.XML.dll</HintPath>
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Connect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open.Designer.cs">
+      <DependentUpon>Open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenMoreInfos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenMoreInfos.Designer.cs">
+      <DependentUpon>OpenMoreInfos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Open_Download.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open_Download.Designer.cs">
+      <DependentUpon>Open_Download.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Publish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Publish.Designer.cs">
+      <DependentUpon>Publish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebDav\DavContext.cs" />
+    <Compile Include="WebDav\DavPropertyUtil.cs" />
+    <Compile Include="WebDav\DavResponse.cs" />
+    <Compile Include="WebDav\DavServerConnection.cs" />
+    <Compile Include="WebDav\DAVSharpUtil.cs" />
+    <Compile Include="WebDav\DavRessource.cs" />
+    <Compile Include="WebDav\ProgressContainer.cs" />
+    <Compile Include="WebDav\WebDavStatusCode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Open.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenMoreInfos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OpenMoreInfos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open_Download.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Open_Download.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Publish.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Publish.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

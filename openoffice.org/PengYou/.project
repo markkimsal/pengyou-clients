@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PengYou</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>OpenOfficeClasses</name>
+			<type>2</type>
+			<location>/home/jerem/C::/Downloads/OOo_2.0.0rc2_051005_Win32Intel_sdk/OpenOffice.org2.0_SDK/OpenOfficeClasses</location>
+		</link>
+	</linkedResources>
+</projectDescription>
